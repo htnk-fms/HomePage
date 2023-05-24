@@ -7,10 +7,16 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.6.5",
+    "vuetify": "^2.6.0"
   },
   "devDependencies": {
     "@vue/cli-service": "~4.5.15",
-    "vue-template-compiler": "^2.6.11"
+    "sass": "~1.32.0",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
   }
 }
