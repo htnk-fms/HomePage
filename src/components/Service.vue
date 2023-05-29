@@ -1,28 +1,27 @@
 <template>
-  <section class="work">
+  <section class="service">
     <AppBackgroundHolder :title="title"/>
-    <div id="work-1">
-      <h2>Work-1</h2>
+    <div id="direction">
+      <h2>ディレクション</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
-    <div id="work-2">
-      <h2>Work-2</h2>
+    <div id="coding">
+      <h2>コーディング</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
-    <div id="work-3">
-      <h2>Work-3</h2>
+    <div id="design">
+      <h2>デザイン</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
   </section>
 </template>
 <script>
 import AppBackgroundHolder from './AppBackgroudHolder.vue'
-
-
+ 
 export default {
   data () {
     return {
-      title: 'Work'
+      title: 'Service'
     }
   },
   components: {
@@ -31,15 +30,15 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-#work-1 {
+#direction {
   height: 1000px;
 }
  
-#work-2 {
+#coding {
   height: 1000px;
 }
  
-#work-3 {
+#design {
   height: 1000px;
 }
 </style>
