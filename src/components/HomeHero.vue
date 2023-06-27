@@ -4,7 +4,7 @@
           <v-row>
               <v-col class="home-hero__content-text">
                   <p>Welcome to my website</p>
-                  <p>I'm a student.</p>
+                  <p>This is Kenichi's site</p>
               </v-col>
           </v-row>
       </v-container>

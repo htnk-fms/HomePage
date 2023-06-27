@@ -1,7 +1,7 @@
 <template>
   <section class="home-work">
       <div class="section__title">
-          <div class="section__titile-text">02. My Work</div>
+          <div class="section__title-text">02. My Work</div>
       </div>
      <v-container>
       <v-row class="home-work__contents">

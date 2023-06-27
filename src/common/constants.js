@@ -13,16 +13,8 @@ export default {
         url: '/work' // 今回追加
       },
       {
-        name: 'SERVICE',
-        url: '/service' // 今回追加
-      },
-      {
-        name: 'BLOG',
-        url: '/blog' // 今回追加
-      },
-      {
-        name: 'ACCESS',
-        url: '/access' // 今回追加
+        name: 'research',
+        url: '/research' // 今回追加
       }
     ],
     workItems: [

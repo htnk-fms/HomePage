@@ -1,7 +1,7 @@
 <template>
 <section class="home-service">
     <div class="section__title">
-        <div class="section__title-text">03. My Service</div>
+        <div class="section__title-text">My Research</div>
     </div>
     <v-container>
         <v-row class="home-service__contents">
@@ -11,7 +11,7 @@
             hover
           >
             <div class="home-service__card-title">
-              <h3>ディレクション</h3>
+              <h3>B3</h3>
             </div>
             <div class="home-service__card-img">
               <img class="icon--service" src="../assets/img/direction.jpg" alt="ディレクション">
@@ -27,7 +27,7 @@
             hover
           >
             <div class="home-service__card-title">
-              <h3>コーディング</h3>
+              <h3>B4</h3>
             </div>
             <div class="home-service__card-img">
               <img class="icon--service" src="../assets/img/coding.jpg" alt="コーディング">

@@ -2,15 +2,15 @@
   <section class="service">
     <AppBackgroundHolder :title="title"/>
     <div id="direction">
-      <h2>ディレクション</h2>
+      <h2>トバクバク</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
     <div id="coding">
-      <h2>コーディング</h2>
+      <h2>ririkkusu</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
     <div id="design">
-      <h2>デザイン</h2>
+      <h2>あのシーンどこだっけ？（あのどこ）</h2>
       <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
     </div>
   </section>

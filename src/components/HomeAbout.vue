@@ -1,7 +1,7 @@
 <template>
   <section class="home-about">
     <div class="section__title">
-      <div class="section__title-text">01. About Me</div>
+      <div class="section__title-text">About Me</div>
       <v-container>
         <v-row class="home-about__contents">
           <v-col md="5" class="home-about__contents-img">
@@ -9,10 +9,14 @@
           </v-col>
           <v-col md="5" class="home-about__contents-text">
             <p>
-              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                はじめまして．<br>
+                <br>
+                畑中です．野球観戦が趣味です．<br>
+                <br>
+                しがない情報系の大学院生です．
             </p>
             <p>
-              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
             </p>
           </v-col>
         </v-row>
@@ -48,6 +52,7 @@ export default {
   }
  
   &-text {
+    text-align: left;
     word-wrap: break-word;
   }
 }
