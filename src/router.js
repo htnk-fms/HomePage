@@ -3,7 +3,8 @@ import Router from 'vue-router'
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Work from './components/Work.vue'
-import Service from './components/Service.vue'
+import Research from './components/Service.vue'
+import Award from './components/Award.vue'
  
 Vue.use(Router)
  
@@ -25,9 +26,14 @@ export default new Router({
       component: Work
     },
     {
-      path: '/service',
-      name: 'service',
-      component: Service
+      path: '/research',
+      name: 'research',
+      component: Research
+    },
+    {
+      path: '/award',
+      name: 'award',
+      component: Award
     }
   ],
   scrollBehavior (to, from, savePosition) {

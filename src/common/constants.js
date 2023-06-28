@@ -13,8 +13,12 @@ export default {
         url: '/work' // 今回追加
       },
       {
-        name: 'research',
+        name: 'RESEARCH',
         url: '/research' // 今回追加
+      },
+      {
+        name: 'AWARD',
+        url: '/award'
       }
     ],
     workItems: [
