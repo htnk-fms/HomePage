@@ -1,5 +1,5 @@
 <template>
-  <section class="service">
+  <section class="research">
     <AppBackgroundHolder :title="title"/>
     <div id="direction">
       <h2>トバクバク</h2>
@@ -21,7 +21,7 @@ import AppBackgroundHolder from './AppBackgroudHolder.vue'
 export default {
   data () {
     return {
-      title: 'Service'
+      title: 'Research'
     }
   },
   components: {

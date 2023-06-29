@@ -8,15 +8,12 @@
             <img src="../assets/img/about.jpg" alt="" class="img-fluid" />
           </v-col>
           <v-col md="5" class="home-about__contents-text">
-            <p>
+            <p class="home-about__contents-p">
                 はじめまして．<br>
                 <br>
                 畑中です．野球観戦が趣味です．<br>
                 <br>
                 しがない情報系の大学院生です．
-            </p>
-            <p>
-
             </p>
           </v-col>
         </v-row>
@@ -31,7 +28,7 @@ import AppButton from './AppButton.vue'
 export default {
   data () {
     return {
-      buttonText: '詳しくみる',
+      buttonText: 'Read More',
       url: '/about'
     }
   },
@@ -54,6 +51,11 @@ export default {
   &-text {
     text-align: left;
     word-wrap: break-word;
+    display:table-cell;
+  }
+  &-p {
+      display: flex; align-items: center; 
   }
 }
+
 </style>

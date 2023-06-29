@@ -7,17 +7,17 @@
         <v-row class="home-service__contents">
         <v-col md="3">
           <v-card
-            to="/service#direction"
+            to="/research#direction"
             hover
           >
             <div class="home-service__card-title">
               <h3>B3</h3>
             </div>
             <div class="home-service__card-img">
-              <img class="icon--service" src="../assets/img/direction.jpg" alt="ディレクション">
+              <img class="icon--service" src="../assets/img/research-img-1.jpg" alt="ディレクション">
             </div>
             <div class="home-service__card-text">
-              <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+              <p>周辺の手書き文字の綺麗さが手書き文字に与える影響の調査</p>
             </div>
           </v-card>
         </v-col>
@@ -33,7 +33,7 @@
               <img class="icon--service" src="../assets/img/coding.jpg" alt="コーディング">
             </div>
             <div class="home-service__card-text">
-              <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+              <p>ShrinkTextbox: Webアンケートの自由記述回答欄サイズ変化による回答の質向上法</p>
             </div>
           </v-card>
         </v-col>
@@ -72,7 +72,7 @@
  
 .home-service__card-img {
   text-align: center;
-  padding: 20px;
+//   padding: 20px;
 }
  
 .home-service__card-text {
@@ -80,8 +80,8 @@
 }
  
 .icon--service {
-  width: 48px;
-  height: 48px;
+  width: 100px;
+  height: 100px;
 }
  
 .v-window {
