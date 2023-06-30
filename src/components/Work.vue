@@ -2,8 +2,8 @@
   <section class="work">
     <AppBackgroundHolder :title="title"/>
     <div id="work-1">
-      <h2>Work-1</h2>
-      <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+      <h2></h2>
+      <p>これは空耳を投稿したり，実際に体感できるアプリケーションです</p>
     </div>
     <div id="work-2">
       <h2>Work-2</h2>
