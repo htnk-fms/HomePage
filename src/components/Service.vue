@@ -3,15 +3,15 @@
     <AppBackgroundHolder :title="title"/>
     <div id="direction">
       <h2>トバクバク</h2>
-      <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+      <p>ハッカソンで作ったサービス</p>
     </div>
     <div id="coding">
-      <h2>ririkkusu</h2>
-      <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+      <h2>Firicks</h2>
+      <p>ハッカソンで作ったサービス</p>
     </div>
     <div id="design">
       <h2>あのシーンどこだっけ？（あのどこ）</h2>
-      <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+      <p>同期で作成したサービス</p>
     </div>
   </section>
 </template>
